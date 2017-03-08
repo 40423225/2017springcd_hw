@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-01T11:00:00+08:00</updated><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
+
+&lt;pre class="brush: python"&gt;
+#import os
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+#讀取w2b_cadlab.txt 檔案,讓裡面的內容成為資料, 因為檔案裡有中文, 所以設定encoding 使用utf-8 的編驛碼
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+#用print 先檢查資料是否是我們需要的
+alist = adata.splitlines()
+#利用splitlines 的方法把資料隔開, 就可以得到一個特定的數列
+#print(alist[2])
+n = 0
+row = 0
+final_list = []
+w2_list = []
+for stud_num in alist[2:]:
+#從第2列開始, 因為第0列和第1列都不是我們要的
+    row = row + 1
+    blist = stud_num.split("\t")
+    #print(blist)
+    column = 0
+    #為了避免序號連續, 利用column = 0 將順序重製, 因為每一列算完之後要換下一列重新開始
+    for i in range(len(blist)):
+        column = column + 1
+        if blist[i] != "":
+            #print(blist[i])
+            clist = blist[i].split("_")
+            stud_data = clist[0]+"_"+clist[1]+"_"+str(row)+"_"+str(column)
+            final_list.append(stud_data)
+            w2_list.append(clist[1])
+            n = n +1
+# 根據數列前導字串排序, 目的在建立分組數列
+group_list = sorted(final_list)
+print("分組名單:")
+for i in range(len(group_list)):
+    print(group_list[i])
+print("座位列表:")
+for i in range(len(final_list)):
+    print(final_list[i])
+for i in range(len(rdata)):
+    if rdata[i] not in w2_list:
+        print("缺席學生:", rdata[i])
+print("學生總數:", n)
+#print(os.environ)
+&lt;/pre&gt;
+
+&lt;h3&gt;Fourbar&lt;/h3&gt;
+
+&lt;p&gt;利用Solvespace 畫出簡單的四連桿機構, 觀察該機構的運動方式, 也可以匯出到V-rep 進行動態模擬&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/206177676"&gt;Week 2_Fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人類來做就行了&lt;/p&gt;</summary><category term="syllabus"></category><category term="w2"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改stunnel.conf的IP設定&lt;/h3&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/205645881" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/205645881"&gt;Week 1_Set IP&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;心得: 還好還沒忘記, 複習一下ipconfig /all指令&lt;/p&gt;</summary><category term="teach"></category></entry></feed>
