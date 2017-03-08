@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'KMOL'
-SITENAME = '2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)'
+SITENAME = '2017Spring 協同產品設計實習 (NFU-MDE104B-40423225)'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
 
@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Home', 'https://40423226.github.io/2017springcd_hw/blog/'),('Pelican', 'http://getpelican.com/'),
+LINKS = (('Home', 'https://40423225.github.io/2017springcd_hw/blog/'),('Pelican', 'http://getpelican.com/'),
          ('pelican-bootstrap3', 'https://github.com/DandyDev/pelican-bootstrap3/'),
          ('pelican-plugins', 'https://github.com/getpelican/pelican-plugins'),
          ('Tipue search', 'https://github.com/Tipue/Tipue-Search'),)
