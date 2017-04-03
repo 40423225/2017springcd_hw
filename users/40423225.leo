@@ -40,14 +40,20 @@
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
-<v t="leo.20170404000513.1" a="E"><vh>上課內容</vh>
+<v t="leo.20170404004910.1" a="E"><vh>日期</vh>
+<v t="leo.20170404004910.2"><vh>日期</vh></v>
+</v>
+<v t="leo.20170404000513.1"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
 </v>
-<v t="leo.20170305005542.2" a="E"><vh>心得</vh>
+<v t="leo.20170305005542.2"><vh>心得</vh>
 <v t="leo.20170305005542.3"><vh>心得</vh></v>
 </v>
 </v>
 <v t="leo.20170404003906.1" a="E"><vh>20170301</vh>
+<v t="leo.20170404004949.1" a="E"><vh>日期</vh>
+<v t="leo.20170404004949.2"><vh>日期</vh></v>
+</v>
 <v t="leo.20170404003906.2" a="E"><vh>上課內容</vh>
 <v t="leo.20170404003906.3"><vh>上課內容</vh></v>
 </v>
@@ -550,6 +556,28 @@ Diff...
 <t tx="leo.20170404003906.5"># 心得
 
 這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。
+</t>
+<t tx="leo.20170404004910.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170404004910.2"># Week 1
+
+
+</t>
+<t tx="leo.20170404004949.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170404004949.2"># Week 2
+
+
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
