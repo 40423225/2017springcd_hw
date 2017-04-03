@@ -39,41 +39,12 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
+<v t="leo.20170305005542.1"><vh>20170222</vh>
 <v t="leo.20170404000513.1" a="E"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
 </v>
-<v t="leo.20170305005542.2"><vh>心得</vh>
+<v t="leo.20170305005542.2" a="E"><vh>心得</vh>
 <v t="leo.20170305005542.3"><vh>心得</vh></v>
-</v>
-</v>
-<v t="leo.20170305005950.1" a="E"><vh>20170301</vh>
-<v t="leo.20170305005950.2"><vh>Week 2</vh>
-<v t="leo.20170305005950.3"><vh>上課內容</vh></v>
-</v>
-<v t="leo.20170404002335.1"><vh>心得</vh>
-<v t="leo.20170404002335.2"><vh>心得</vh></v>
-</v>
-</v>
-<v t="leo.20170312092645.1" a="E"><vh>20170308 Week 3</vh>
-<v t="leo.20170312092645.2" a="E"><vh>Week 3</vh>
-<v t="leo.20170312092645.3"><vh>上課內容</vh></v>
-</v>
-</v>
-<v t="leo.20170319224836.1" a="E"><vh>20170315 Week 4</vh>
-<v t="leo.20170319224836.2" a="E"><vh>Week 4</vh>
-<v t="leo.20170319224836.3"><vh>上課內容</vh></v>
-</v>
-</v>
-<v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
-<v t="yen.20170120110024.12"><vh>導入數學符號與方程式</vh>
-<v t="yen.20170120110024.13"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="yen.20170120110024.14"><vh>導入縮排程式碼</vh>
-<v t="yen.20170120110024.15"><vh>引用程式碼</vh></v>
-</v>
-<v t="yen.20170120110024.16"><vh>導入影片</vh>
-<v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -180,69 +151,6 @@
 
 這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習
 </t>
-<t tx="leo.20170305005950.1">&lt;section&gt;
-@others
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-</t>
-<t tx="leo.20170305005950.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-</t>
-<t tx="leo.20170305005950.3"># Week 2
-
-1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
-
-2.啟動後以https://IP/2017springvcp_hw連結
-
-3.帳號:cadlab密碼:2017springvcp_hw
-
-4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-6.利用協同完成Solvespace4連桿機構組立
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20170312092645.1">4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-@others
-</t>
-<t tx="leo.20170312092645.2">
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170312092645.3">6.利用協同完成Solvespace4連桿機構組立
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# Fourbar
-
-&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-</t>
-<t tx="leo.20170319224836.1">@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170319224836.2">@others
-
-
-						
-</t>
-<t tx="leo.20170319224836.3"></t>
 <t tx="leo.20170403235911.10">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -601,21 +509,6 @@ Diff...
 
 3.建立個人的名為2017springcd_hw倉儲並其中一位組員建立小組倉儲
 </t>
-<t tx="leo.20170404002335.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170404002335.2"># 心得
-
-這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習
-</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -778,82 +671,6 @@ make.start()</t>
 * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
-</t>
-<t tx="yen.20170120110024.11">&lt;section&gt;
-@others
-&lt;/section&gt;
-</t>
-<t tx="yen.20170120110024.12">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="yen.20170120110024.13"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="yen.20170120110024.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="yen.20170120110024.15">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="yen.20170120110024.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170120110024.17">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="yen.20170120110024.2">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
