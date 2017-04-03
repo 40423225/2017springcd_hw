@@ -39,7 +39,7 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170305005542.1"><vh>20170222</vh>
+<v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
 <v t="leo.20170404000513.1" a="E"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
 </v>
@@ -47,12 +47,20 @@
 <v t="leo.20170305005542.3"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20170404003906.1" a="E"><vh>20170301</vh>
+<v t="leo.20170404003906.2" a="E"><vh>上課內容</vh>
+<v t="leo.20170404003906.3"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170404003906.4" a="E"><vh>心得</vh>
+<v t="leo.20170404003906.5"><vh>心得</vh></v>
 </v>
 </v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+</v>
+</v>
+<v t="yen.20170108171733.71"><vh>@path content</vh>
 <v t="yen.20170123225841.1"><vh>@edit 20170222.md</vh></v>
 <v t="leo.20170305003620.1"><vh>@edit 20170301.md</vh></v>
 <v t="leo.20170312092009.1"><vh>@edit 20170308.md</vh></v>
@@ -508,6 +516,40 @@ Diff...
 2.下載tiny2017_1GB，並更改stunnel.conf的IP位址
 
 3.建立個人的名為2017springcd_hw倉儲並其中一位組員建立小組倉儲
+</t>
+<t tx="leo.20170404003906.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170404003906.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170404003906.3"># 上課內容
+
+1.進入https://ethercalc.org/4lirnzbeh0fl 寫各組座位表
+
+2.利用 Ethercalc 取得各學員座號與組別, 之後再將資料儲存後, 以程式整理成分組數列與座位數列, 使建立協同歷程記錄時使用，以及找出缺席或未找到組別同學名單
+
+3.完成Solvespace4連桿機構組立，並放置到Vrep裡。
+</t>
+<t tx="leo.20170404003906.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170404003906.5"># 心得
+
+這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
