@@ -1,65 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423225)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-01T11:00:00+08:00</updated><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg8</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-40423225-洪嘉緯)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-29T22:00:00+08:00</updated><entry><title>Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T22:00:00+08:00</published><updated>2017-03-29T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
 
-&lt;pre class="brush: python"&gt;
-#import os
-adata = open("w2b_cadlab.txt", encoding="utf-8").read()
-#讀取w2b_cadlab.txt 檔案,讓裡面的內容成為資料, 因為檔案裡有中文, 所以設定encoding 使用utf-8 的編驛碼
-rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
-#print(adata)
-#用print 先檢查資料是否是我們需要的
-alist = adata.splitlines()
-#利用splitlines 的方法把資料隔開, 就可以得到一個特定的數列
-#print(alist[2])
-n = 0
-row = 0
-final_list = []
-w2_list = []
-for stud_num in alist[2:]:
-#從第2列開始, 因為第0列和第1列都不是我們要的
-    row = row + 1
-    blist = stud_num.split("\t")
-    #print(blist)
-    column = 0
-    #為了避免序號連續, 利用column = 0 將順序重製, 因為每一列算完之後要換下一列重新開始
-    for i in range(len(blist)):
-        column = column + 1
-        if blist[i] != "":
-            #print(blist[i])
-            clist = blist[i].split("_")
-            stud_data = clist[0]+"_"+clist[1]+"_"+str(row)+"_"+str(column)
-            final_list.append(stud_data)
-            w2_list.append(clist[1])
-            n = n +1
-# 根據數列前導字串排序, 目的在建立分組數列
-group_list = sorted(final_list)
-print("分組名單:")
-for i in range(len(group_list)):
-    print(group_list[i])
-print("座位列表:")
-for i in range(len(final_list)):
-    print(final_list[i])
-for i in range(len(rdata)):
-    if rdata[i] not in w2_list:
-        print("缺席學生:", rdata[i])
-print("學生總數:", n)
-#print(os.environ)
-&lt;/pre&gt;
 
-&lt;h3&gt;Fourbar&lt;/h3&gt;
+&lt;h3&gt;V-rep&lt;/h3&gt;
 
-&lt;p&gt;利用Solvespace 畫出簡單的四連桿機構, 觀察該機構的運動方式, 也可以匯出到V-rep 進行動態模擬&lt;/p&gt;
+&lt;h3&gt;影片&lt;/h3&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/206177676"&gt;Week 2_Fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人類來做就行了&lt;/p&gt;</summary><category term="python"></category><category term="solvespace"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改stunnel.conf的IP設定&lt;/h3&gt;
+&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="V-rep"></category></entry><entry><title>Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T22:00:00+08:00</published><updated>2017-03-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/205645881" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/205645881"&gt;Week 1_Set IP&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Solvespace&lt;/h3&gt;
 
-&lt;p&gt;心得: 還好還沒忘記, 複習一下ipconfig /all指令&lt;/p&gt;</summary><category term="stunnel"></category></entry></feed>
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="Solvespace(2)"></category></entry><entry><title>Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T22:00:00+08:00</published><updated>2017-03-15T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+
+
+&lt;h3&gt;Solvespace&lt;/h3&gt;
+
+&lt;h3&gt;Onshape&lt;/h3&gt;
+
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。&lt;p&gt;</summary><category term="單桿機構組件"></category></entry><entry><title>Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T22:00:00+08:00</published><updated>2017-03-08T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+
+
+&lt;h3&gt;Solvespace&lt;/h3&gt;
+
+&lt;h3&gt;Onshape&lt;/h3&gt;
+
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這是第三次上課，要開始畫圖了，畫圖的話跟之前一樣這學期的wiki要在不同的地方編輯，感覺怪怪的，但用久就習慣了。&lt;p&gt;</summary><category term="四連桿機構"></category></entry><entry><title>Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T22:00:00+08:00</published><updated>2017-03-01T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+
+
+&lt;h3&gt;Solvespace&lt;/h3&gt;
+
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。&lt;p&gt;</summary><category term="Solvespace(1)"></category></entry><entry><title>Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T22:00:00+08:00</published><updated>2017-02-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+
+
+&lt;h3&gt;未修改 stunnel.conf 的 IP 設定&lt;/h3&gt;
+
+&lt;h3&gt;修改過 stunnel.conf 的 IP 設定&lt;/h3&gt;
+
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習&lt;p&gt;</summary><category term="Stunnel.conf IP設定"></category></entry></feed>

@@ -18,7 +18,7 @@
 <v t="yen.20170108171733.2"><vh>@button pelican-blog</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
+<v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
@@ -33,7 +33,7 @@
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
@@ -111,6 +111,12 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+<v t="leo.20170405102444.1"><vh>@edit 20170222.md</vh></v>
+<v t="leo.20170405103038.1"><vh>@edit 20170301.md</vh></v>
+<v t="leo.20170405103501.1"><vh>@edit 20170308.md</vh></v>
+<v t="leo.20170405103652.1"><vh>@edit 20170315.md</vh></v>
+<v t="leo.20170405103744.1"><vh>@edit 20170322.md</vh></v>
+<v t="leo.20170405103842.1"><vh>@edit 20170329.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -388,7 +394,7 @@
 </t>
 <t tx="leo.20170405092216.5"># 上課內容
 
-2.利用V-rep讓四桿機構轉動
+1.利用V-rep讓四桿機構轉動
 
 
 </t>
@@ -662,7 +668,7 @@ make.start()</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40423225-洪嘉緯](https://40423225.github.io/2017springcd_hw/blog/)
+Created by [NFU-40423225-洪嘉緯](https://40423225.github.io/2017springcd_hw/blog/)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
