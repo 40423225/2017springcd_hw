@@ -39,18 +39,18 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
-<v t="leo.20170404004910.1" a="E"><vh>日期</vh>
+<v t="leo.20170305005542.1"><vh>20170222</vh>
+<v t="leo.20170404004910.1"><vh>日期</vh>
 <v t="leo.20170404004910.2"><vh>日期</vh></v>
 </v>
 <v t="leo.20170404000513.1"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
 </v>
-<v t="leo.20170305005542.2"><vh>心得</vh>
+<v t="leo.20170305005542.2" a="E"><vh>心得</vh>
 <v t="leo.20170305005542.3"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170404003906.1" a="E"><vh>20170301</vh>
+<v t="leo.20170404003906.1"><vh>20170301</vh>
 <v t="leo.20170404004949.1" a="E"><vh>日期</vh>
 <v t="leo.20170404004949.2"><vh>日期</vh></v>
 </v>
@@ -61,17 +61,56 @@
 <v t="leo.20170404003906.5"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20170405084353.1"><vh>20170308</vh>
+<v t="leo.20170405084353.2" a="E"><vh>日期</vh>
+<v t="leo.20170405084353.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170405084353.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405084353.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170405084353.6" a="E"><vh>心得</vh>
+<v t="leo.20170405084353.7"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170405085629.1"><vh>20170315</vh>
+<v t="leo.20170405085629.2" a="E"><vh>日期</vh>
+<v t="leo.20170405085629.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170405085629.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405085629.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170405085629.6" a="E"><vh>心得</vh>
+<v t="leo.20170405085629.7"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170405090545.1"><vh>20170322</vh>
+<v t="leo.20170405090545.2" a="E"><vh>日期</vh>
+<v t="leo.20170405090545.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170405090545.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405090545.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170405090545.6" a="E"><vh>心得</vh>
+<v t="leo.20170405090545.7"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170405092216.1"><vh>20170329</vh>
+<v t="leo.20170405092216.2" a="E"><vh>日期</vh>
+<v t="leo.20170405092216.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170405092216.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405092216.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170405092216.6" a="E"><vh>心得</vh>
+<v t="leo.20170405092216.7"><vh>心得</vh></v>
 </v>
 </v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71"><vh>@path content</vh>
-<v t="yen.20170123225841.1"><vh>@edit 20170222.md</vh></v>
-<v t="leo.20170305003620.1"><vh>@edit 20170301.md</vh></v>
-<v t="leo.20170312092009.1"><vh>@edit 20170308.md</vh></v>
-<v t="leo.20170319224759.1"><vh>@edit 20170315.md</vh></v>
-<v t="leo.20170329004707.1"><vh>@edit 20170322.md</vh></v>
+</v>
+</v>
+<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -98,52 +137,6 @@
 </v>
 </v>
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
-<v t="leo.20170403235911.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20170403235911.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
-<v t="leo.20170403235911.4"><vh>old:封面投影片內容</vh></v>
-<v t="leo.20170403235911.5"><vh>new:封面投影片內容</vh></v>
-</v>
-<v t="leo.20170403235911.6"><vh>Recovered node "上課內容" from @clean index.html</vh>
-<v t="leo.20170403235911.7"><vh>old:上課內容</vh></v>
-<v t="leo.20170403235911.8"><vh>new:上課內容</vh></v>
-</v>
-<v t="leo.20170403235911.9"><vh>Recovered node "20170301 Week 2" from @clean index.html</vh>
-<v t="leo.20170403235911.10"><vh>old:20170301 Week 2</vh></v>
-<v t="leo.20170403235911.11"><vh>new:20170301 Week 2</vh></v>
-</v>
-<v t="leo.20170403235911.12"><vh>Recovered node "Week 2" from @clean index.html</vh>
-<v t="leo.20170403235911.13"><vh>old:Week 2</vh></v>
-<v t="leo.20170403235911.14"><vh>new:Week 2</vh></v>
-</v>
-<v t="leo.20170403235911.15"><vh>Recovered node "上課內容" from @clean index.html</vh>
-<v t="leo.20170403235911.16"><vh>old:上課內容</vh></v>
-<v t="leo.20170403235911.17"><vh>new:上課內容</vh></v>
-</v>
-<v t="leo.20170403235911.18"><vh>Recovered node "20170308 Week 3" from @clean index.html</vh>
-<v t="leo.20170403235911.19"><vh>old:20170308 Week 3</vh></v>
-<v t="leo.20170403235911.20"><vh>new:20170308 Week 3</vh></v>
-</v>
-<v t="leo.20170403235911.21"><vh>Recovered node "Week 3" from @clean index.html</vh>
-<v t="leo.20170403235911.22"><vh>old:Week 3</vh></v>
-<v t="leo.20170403235911.23"><vh>new:Week 3</vh></v>
-</v>
-<v t="leo.20170403235911.24"><vh>Recovered node "上課內容" from @clean index.html</vh>
-<v t="leo.20170403235911.25"><vh>old:上課內容</vh></v>
-<v t="leo.20170403235911.26"><vh>new:上課內容</vh></v>
-</v>
-<v t="leo.20170403235911.27"><vh>Recovered node "20170315 Week 4" from @clean index.html</vh>
-<v t="leo.20170403235911.28"><vh>old:20170315 Week 4</vh></v>
-<v t="leo.20170403235911.29"><vh>new:20170315 Week 4</vh></v>
-</v>
-<v t="leo.20170403235911.30"><vh>Recovered node "Week 4" from @clean index.html</vh>
-<v t="leo.20170403235911.31"><vh>old:Week 4</vh></v>
-<v t="leo.20170403235911.32"><vh>new:Week 4</vh></v>
-</v>
-<v t="leo.20170403235911.33"><vh>Recovered node "上課內容" from @clean index.html</vh>
-<v t="leo.20170403235911.34"><vh>old:上課內容</vh></v>
-<v t="leo.20170403235911.35"><vh>new:上課內容</vh></v>
-</v>
-</v>
 </vnodes>
 <tnodes>
 <t tx="leo.20170305005542.1">&lt;section&gt;
@@ -165,349 +158,6 @@
 
 這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習
 </t>
-<t tx="leo.20170403235911.10">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20170403235911.11">&lt;section&gt;
-@others
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-</t>
-<t tx="leo.20170403235911.12">(uncached) leo.20170305005950.2
-Diff...
-  &lt;section data-markdown&gt;
-      &lt;script type="text/template"&gt;
-  &lt;!-- 請注意, @others 不可以內縮 --&gt;
-  @others
-+     &lt;/script&gt;
-+ &lt;/section&gt;
-  
-  
-  
-  						
-- &lt;section data-markdown&gt;
--     &lt;script type="text/template"&gt;
-</t>
-<t tx="leo.20170403235911.13">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170403235911.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-</t>
-<t tx="leo.20170403235911.15">(uncached) leo.20170305005950.3
-Diff...
-  # Week 2
-  
-- 1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
-+ 1.1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
-? ++
-  
-- 2.啟動後以https://IP/2017springvcp_hw連結
-?                                  --
-+ 2.啟動後以 https:// IP /2017springvcp_hw
-?       +        +  +
-+ 連結
-  
-  3.帳號:cadlab密碼:2017springvcp_hw
-  
-- 4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-?                                       ------
-+ 4.進入https://ethercalc.org/4lirnzbeh0fl
-+ 寫各組座位表
-  
-- 5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-?   ----             -----                  ^^^^^^^^^^^^^^^^    ---------
-+ 5.利用 Ethercalc 取得各學員座號與組別, 之後再將資料儲存後, 以程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-?                                  ^^
-  
-  6.利用協同完成Solvespace4連桿機構組立
--     &lt;/script&gt;
-- &lt;/section&gt;
-+ 
-+ 
-</t>
-<t tx="leo.20170403235911.16"># Week 2
-
-1.1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
-
-2.啟動後以 https:// IP /2017springvcp_hw
-連結
-
-3.帳號:cadlab密碼:2017springvcp_hw
-
-4.進入https://ethercalc.org/4lirnzbeh0fl
-寫各組座位表
-
-5.利用 Ethercalc 取得各學員座號與組別, 之後再將資料儲存後, 以程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-6.利用協同完成Solvespace4連桿機構組立
-
-
-</t>
-<t tx="leo.20170403235911.17"># Week 2
-
-1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
-
-2.啟動後以https://IP/2017springvcp_hw連結
-
-3.帳號:cadlab密碼:2017springvcp_hw
-
-4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-6.利用協同完成Solvespace4連桿機構組立
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20170403235911.18">(uncached) leo.20170312092645.1
-Diff...
-- 4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-+ &lt;section&gt;
-  @others
-+ &lt;/section&gt;</t>
-<t tx="leo.20170403235911.19">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20170403235911.2"></t>
-<t tx="leo.20170403235911.20">4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-@others
-</t>
-<t tx="leo.20170403235911.21">(uncached) leo.20170312092645.2
-Diff...
-+ &lt;section data-markdown&gt;
-+     &lt;script type="text/template"&gt;
-+ &lt;!-- 請注意, @others 不可以內縮 --&gt;
-+ @others
-+     &lt;/script&gt;
-+ &lt;/section&gt;
-  
-- 5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-  
-- @others
-- &lt;/section&gt;
-+ 
-+ 						
-</t>
-<t tx="leo.20170403235911.22">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170403235911.23">
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170403235911.24">(uncached) leo.20170312092645.3
-Diff...
-- 6.利用協同完成Solvespace4連桿機構組立
--     &lt;/script&gt;
-- &lt;/section&gt;
-+ # Week 3
-+ 
-+ 1.至課程網頁中 w3 Hyperworks 處瀏覽 10 個影片, 請每組選兩個影片, 設法寫出該影片的英文逐字稿
-+ 
-+ 2.完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep
-+ 
-+ 3.利用 Onshape 完成上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
-+ 
-+ 4.在 50 連桿上加上 50-50-50 正三角形, 以 Solvespace 輸入該三角形頂點運動軌跡
-+ 
-+ 5.請設法驗證上述四連桿運動軌跡, 是否正確, 並設法在分組網頁中執行該四連桿機構的運動模擬
-  
-  
-- 
-- 						
-- &lt;section data-markdown&gt;
--     &lt;script type="text/template"&gt;
-- # Fourbar
-- 
-- &lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
--     &lt;/script&gt;
-</t>
-<t tx="leo.20170403235911.25"># Week 3
-
-1.至課程網頁中 w3 Hyperworks 處瀏覽 10 個影片, 請每組選兩個影片, 設法寫出該影片的英文逐字稿
-
-2.完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep
-
-3.利用 Onshape 完成上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
-
-4.在 50 連桿上加上 50-50-50 正三角形, 以 Solvespace 輸入該三角形頂點運動軌跡
-
-5.請設法驗證上述四連桿運動軌跡, 是否正確, 並設法在分組網頁中執行該四連桿機構的運動模擬
-
-
-</t>
-<t tx="leo.20170403235911.26">6.利用協同完成Solvespace4連桿機構組立
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# Fourbar
-
-&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-</t>
-<t tx="leo.20170403235911.27">(uncached) leo.20170319224836.1
-Diff...
-+ &lt;section&gt;
-  @others
-- &lt;/section&gt;
-?           -
-+ &lt;/section&gt;</t>
-<t tx="leo.20170403235911.28">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20170403235911.29">@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170403235911.3">(uncached) yen.20170120110024.8
-Diff...
-  ## 2017Spring 協同產品設計實習
-  
-  ### 虎科大機械設計工程系
-  
-  &lt;small&gt;
-- Created by [NFU-MDE104B-40423225](https://40423225.github.io/2017springcd_hw/blog/)
-?             ------------       ^                 ^                               -
-+ Created by [40423229](https://40423229.github.io/2017springcd_hw/blog)
-?                    ^                 ^
-  &lt;/small&gt;
-  
-  [協同產品設計實習課程網誌](blog/index.html)
-  
-  
-</t>
-<t tx="leo.20170403235911.30">(uncached) leo.20170319224836.2
-Diff...
-+ &lt;section data-markdown&gt;
-+     &lt;script type="text/template"&gt;
-+ &lt;!-- 請注意, @others 不可以內縮 --&gt;
-  @others
-+     &lt;/script&gt;
-+ &lt;/section&gt;
-+ 
-  
-  
-  						
-</t>
-<t tx="leo.20170403235911.31">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170403235911.32">@others
-
-
-						
-</t>
-<t tx="leo.20170403235911.33">(uncached) leo.20170319224836.3
-Diff...
-+ # Week 4
-+ 
-+ 1. 各組利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬
-+ 
-+ 2. 平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖, 方程式推導以 sympy 完成, 而 2D 繪圖則以 Brython 在各組網誌中完成. 先了解如何推導四連桿機構的運動方程式, 然後在各組網誌中完成靜態繪圖與動態模擬
-+ 
-+ 3. 為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲
-+ 
-+ 
-</t>
-<t tx="leo.20170403235911.34"># Week 4
-
-1. 各組利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬
-
-2. 平面四連桿機構的運動路徑方程式推導與網際 2D 繪圖, 方程式推導以 sympy 完成, 而 2D 繪圖則以 Brython 在各組網誌中完成. 先了解如何推導四連桿機構的運動方程式, 然後在各組網誌中完成靜態繪圖與動態模擬
-
-3. 為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1(完成後可直接連結至 cdbg1 倉儲, 交由組長管理) ~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲
-
-
-</t>
-<t tx="leo.20170403235911.35"></t>
-<t tx="leo.20170403235911.4">## 2017Spring 協同產品設計實習
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [40423229](https://40423229.github.io/2017springcd_hw/blog)
-&lt;/small&gt;
-
-[協同產品設計實習課程網誌](blog/index.html)
-
-
-</t>
-<t tx="leo.20170403235911.5">## 2017Spring 協同產品設計實習
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [NFU-MDE104B-40423225](https://40423225.github.io/2017springcd_hw/blog/)
-&lt;/small&gt;
-
-[協同產品設計實習課程網誌](blog/index.html)
-
-
-</t>
-<t tx="leo.20170403235911.6">(uncached) leo.20170305005542.3
-Diff...
-  # Week 1
-  
-- 1.建立小組及個人的倉儲
-+ 1.下載tiny2017_1GB，更改stunnel.conf的IP位址
-  
-- 2.更改stunnel.conf的IP設定
-+ 2.建立個人的倉儲2017springcd_hw及其中一位組員建立小組倉儲</t>
-<t tx="leo.20170403235911.7"># Week 1
-
-1.下載tiny2017_1GB，更改stunnel.conf的IP位址
-
-2.建立個人的倉儲2017springcd_hw及其中一位組員建立小組倉儲</t>
-<t tx="leo.20170403235911.8"># Week 1
-
-1.建立小組及個人的倉儲
-
-2.更改stunnel.conf的IP設定
-</t>
-<t tx="leo.20170403235911.9">(uncached) leo.20170305005950.1
-Diff...
-  &lt;section&gt;
-  @others
-- &lt;!-- 請注意, @others 不可以內縮 --&gt;
-+ &lt;/section&gt;</t>
 <t tx="leo.20170404000513.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -578,6 +228,184 @@ Diff...
 <t tx="leo.20170404004949.2"># Week 2
 
 
+</t>
+<t tx="leo.20170405084353.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405084353.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405084353.3"># Week 3
+
+
+</t>
+<t tx="leo.20170405084353.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405084353.5"># 上課內容
+
+1.利用Solvespace完成 30-50-60 cm 比例的四連桿機構, 並轉出 stl 檔案, 以 import方式轉入 V-rep
+
+2.利用 Onshape 完成上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
+
+3.請設法驗證上述四連桿運動軌跡, 是否正確, 並設法在分組網頁中執行該四連桿機構的運動模擬
+</t>
+<t tx="leo.20170405084353.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405084353.7"># 心得
+
+這是第三次上課，要開始畫圖了，畫圖的話跟之前一樣這學期的wiki要在不同的地方編輯，感覺怪怪的，但用久就習慣了。
+</t>
+<t tx="leo.20170405085629.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405085629.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405085629.3"># Week 4
+
+
+</t>
+<t tx="leo.20170405085629.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405085629.5"># 上課內容
+
+1.建立各組協同主機
+
+1.利用Solvespace完成單桿機構組件
+
+2.利用Onshape完成單桿機構組件
+</t>
+<t tx="leo.20170405085629.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405085629.7"># 心得
+
+這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。
+</t>
+<t tx="leo.20170405090545.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405090545.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405090545.3"># Week 5
+
+
+</t>
+<t tx="leo.20170405090545.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405090545.5"># 上課內容
+
+1.如何在fossil筆記倉儲主頁顯示作業
+
+2.利用Solvespace讓四桿機構轉動
+
+
+</t>
+<t tx="leo.20170405090545.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405090545.7"># 心得
+
+這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。
+</t>
+<t tx="leo.20170405092216.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405092216.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405092216.3"># Week 6
+
+
+</t>
+<t tx="leo.20170405092216.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170405092216.5"># 上課內容
+
+2.利用V-rep讓四桿機構轉動
+
+
+</t>
+<t tx="leo.20170405092216.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405092216.7"># 心得
+
+這是第六次上課，這次跟上次一樣，只是又不同的軟體開啟而已，真是簡單。
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
