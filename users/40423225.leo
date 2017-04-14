@@ -39,12 +39,15 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170305005542.1"><vh>20170222</vh>
+<v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
 <v t="leo.20170404004910.1"><vh>日期</vh>
 <v t="leo.20170404004910.2"><vh>日期</vh></v>
 </v>
 <v t="leo.20170404000513.1" a="E"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170414180543.1" a="E"><vh>影片</vh>
+<v t="leo.20170414180543.2"><vh>影片</vh></v>
 </v>
 <v t="leo.20170305005542.2" a="E"><vh>心得</vh>
 <v t="leo.20170305005542.3"><vh>心得</vh></v>
@@ -447,6 +450,18 @@
 <t tx="leo.20170405110303.2"># 解決辦法
 
 刪除 plugin 下的 liquid_tags 目錄</t>
+<t tx="leo.20170414180543.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170414180543.2"># 影片
+
+&lt;iframe src="https://player.vimeo.com/video/213207897" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
