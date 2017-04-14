@@ -43,7 +43,7 @@
 <v t="leo.20170404004910.1"><vh>日期</vh>
 <v t="leo.20170404004910.2"><vh>日期</vh></v>
 </v>
-<v t="leo.20170404000513.1" a="E"><vh>上課內容</vh>
+<v t="leo.20170404000513.1"><vh>上課內容</vh>
 <v t="leo.20170404000513.2"><vh>上課內容</vh></v>
 </v>
 <v t="leo.20170414180543.1" a="E"><vh>影片</vh>
@@ -57,8 +57,11 @@
 <v t="leo.20170404004949.1" a="E"><vh>日期</vh>
 <v t="leo.20170404004949.2"><vh>日期</vh></v>
 </v>
-<v t="leo.20170404003906.2" a="E"><vh>上課內容</vh>
+<v t="leo.20170404003906.2"><vh>上課內容</vh>
 <v t="leo.20170404003906.3"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170415012311.1" a="E"><vh>影片</vh>
+<v t="leo.20170415012311.2"><vh>影片</vh></v>
 </v>
 <v t="leo.20170404003906.4" a="E"><vh>心得</vh>
 <v t="leo.20170404003906.5"><vh>心得</vh></v>
@@ -171,7 +174,7 @@
 </t>
 <t tx="leo.20170305005542.3"># 心得
 
-這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習
+這又是新的學期，開始交新的東西，雖然上學習被當了。但下學期還是會努力學習。
 </t>
 <t tx="leo.20170404000513.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -461,6 +464,17 @@
 
 &lt;iframe src="https://player.vimeo.com/video/213207897" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
+</t>
+<t tx="leo.20170415012311.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170415012311.2"># 影片
+
+&lt;iframe src="https://player.vimeo.com/video/213250415" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
