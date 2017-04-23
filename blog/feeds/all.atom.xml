@@ -81,6 +81,10 @@
 &lt;p&gt;&lt;img src="../data/image/W3-3.png" width="800" /&gt;&lt;/p&gt;
 &lt;h3&gt;影片&lt;/h3&gt;
 
+&lt;iframe src="https://player.vimeo.com/video/214355570" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/214357898" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;

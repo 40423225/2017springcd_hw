@@ -39,7 +39,7 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170305005542.1" a="E"><vh>20170222</vh>
+<v t="leo.20170305005542.1"><vh>20170222</vh>
 <v t="leo.20170404004910.1"><vh>日期</vh>
 <v t="leo.20170404004910.2"><vh>日期</vh></v>
 </v>
@@ -71,8 +71,14 @@
 <v t="leo.20170405084353.2" a="E"><vh>日期</vh>
 <v t="leo.20170405084353.3"><vh>日期</vh></v>
 </v>
-<v t="leo.20170405084353.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405084353.4"><vh>上課內容</vh>
 <v t="leo.20170405084353.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170423151325.1" a="E"><vh>影片1</vh>
+<v t="leo.20170423151325.2"><vh>影片1</vh></v>
+</v>
+<v t="leo.20170423151340.1" a="E"><vh>影片2</vh>
+<v t="leo.20170423151340.2"><vh>影片2</vh></v>
 </v>
 <v t="leo.20170405084353.6" a="E"><vh>心得</vh>
 <v t="leo.20170405084353.7"><vh>心得</vh></v>
@@ -475,6 +481,28 @@
 <t tx="leo.20170415012311.2"># 影片
 
 &lt;iframe src="https://player.vimeo.com/video/213250415" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170423151325.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170423151325.2"># 影片1
+
+&lt;iframe src="https://player.vimeo.com/video/214355570" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170423151340.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170423151340.2"># 影片2
+
+&lt;iframe src="https://player.vimeo.com/video/214357898" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
