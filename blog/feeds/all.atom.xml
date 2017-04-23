@@ -51,20 +51,41 @@
 
 
 &lt;h3&gt;心得&lt;/h3&gt;
-&lt;p&gt;這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。&lt;p&gt;</summary><category term="單桿機構組件"></category></entry><entry><title>Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T22:00:00+08:00</published><updated>2017-03-08T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+&lt;p&gt;這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。&lt;p&gt;</summary><category term="單桿機構組件"></category></entry><entry><title>Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T22:00:00+08:00</published><updated>2017-03-08T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;p&gt;四連桿機構&lt;/p&gt;
 
 
 &lt;h3&gt;Solvespace&lt;/h3&gt;
 
+&lt;p&gt;Link_30&lt;/p&gt;
+
+&lt;iframe src="../data/image/W3-1.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Link_50&lt;/p&gt;
+
+&lt;iframe src="../data/image/W3-2.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Link_60&lt;/p&gt;
+
+&lt;iframe src="../data/image/W3-3.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
 &lt;h3&gt;Onshape&lt;/h3&gt;
 
+&lt;p&gt;Link_30&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/image/W3-1.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;Link_50&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/image/W3-2.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;Link_60&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/image/W3-3.png" width="800" /&gt;&lt;/p&gt;
 &lt;h3&gt;影片&lt;/h3&gt;
 
 &lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第三次上課，要開始畫圖了，畫圖的話跟之前一樣這學期的wiki要在不同的地方編輯，感覺怪怪的，但用久就習慣了。&lt;p&gt;</summary><category term="四連桿機構"></category></entry><entry><title>Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T22:00:00+08:00</published><updated>2017-03-01T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+&lt;p&gt;這是第三次上課，要開始畫圖了，畫圖的話跟之前一樣這學期的wiki要在不同的地方編輯，感覺怪怪的，但用久就習慣了。&lt;p&gt;</summary><category term="四連桿機構"></category></entry><entry><title>Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T22:00:00+08:00</published><updated>2017-03-01T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位和四連桿機構&lt;/p&gt;
 
 
 &lt;h3&gt;分組座位原始碼&lt;/h3&gt;
@@ -125,7 +146,7 @@ print("學生總數:", n)
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。&lt;p&gt;</summary><category term="Solvespace(1)"></category></entry><entry><title>Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T22:00:00+08:00</published><updated>2017-02-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+&lt;p&gt;這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。&lt;p&gt;</summary><category term="Solvespace(1)"></category></entry><entry><title>Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T22:00:00+08:00</published><updated>2017-02-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;p&gt;Stunnel.conf IP設定&lt;/p&gt;
 
 
 &lt;h3&gt;未修改 stunnel.conf 的 IP 設定&lt;/h3&gt;
