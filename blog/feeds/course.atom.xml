@@ -10,18 +10,80 @@
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="V-rep"></category></entry><entry><title>Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T22:00:00+08:00</published><updated>2017-03-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;p&gt;上課內容&lt;/p&gt;
+&lt;p&gt;這這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="V-rep(2)"></category></entry><entry><title>Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T22:00:00+08:00</published><updated>2017-03-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;p&gt;Fossil SCM 與 Stunnel 啟動整合和在 V-rep 模擬 Fourbar&lt;/p&gt;
 
 
-&lt;h3&gt;Solvespace&lt;/h3&gt;
+&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
+
+&lt;p&gt;1. 更改 Start.bat 設定&lt;/p&gt;
+
+&lt;pre class="brush: python"&gt;
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
+set path3="C:\Program Files (x86)\Google\Chrome\Application"
+path=%path%;%path1%;%path2%;%path3%
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_bg1.fossil
+REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+REM echo Network IP: %NetworkIP%
+REM Saved in %Disk%:\stunnel\config\stunnel.conf
+@echo off
+REM 建立 stunnel.conf
+@echo [https] &gt; %Disk%:\stunnel\config\stunnel.conf
+REM 附加資料
+@echo accept = %NetworkIP%:443 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo connect = 127.0.0.1:8080 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo TIMEOUTclose = 0 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo cert = %Disk%:\stunnel\config\localhost.crt &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo key = %Disk%:\stunnel\config\localhost.key &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+REM 啟動 stunnel
+start /MIN stunnel.exe
+REM 以 chrome 連線到 https://%NetworkIP%:443
+chrome https://%NetworkIP% https://mde2a2.kmol.info/cdbg8
+Exit
+&lt;/pre&gt;
+
+&lt;h3&gt;如何在fossil筆記倉儲主頁顯示作業&lt;/h3&gt;
+
+&lt;p&gt;只要在wiki裡新增一個與倉儲筆記同名稱的檔案，即可在fossil筆記倉儲主頁顯示作業&lt;/p&gt;
 
 &lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/214395459" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="Solvespace(2)"></category></entry><entry><title>Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T22:00:00+08:00</published><updated>2017-03-15T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;p&gt;建立協同主機和單桿機構組件&lt;/p&gt;
+&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="V-rep"></category></entry><entry><title>Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T22:00:00+08:00</published><updated>2017-03-15T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;p&gt;建立協同主機和單桿機構組件&lt;/p&gt;
 
 
 &lt;p&gt;&lt;h3&gt;建立協同主機 2017springcd_bg8&lt;/h3&gt;&lt;/p&gt;

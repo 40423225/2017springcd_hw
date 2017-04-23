@@ -60,7 +60,7 @@
 <v t="leo.20170404003906.2"><vh>上課內容</vh>
 <v t="leo.20170404003906.3"><vh>上課內容</vh></v>
 </v>
-<v t="leo.20170415012311.1" a="E"><vh>影片</vh>
+<v t="leo.20170415012311.1"><vh>影片</vh>
 <v t="leo.20170415012311.2"><vh>影片</vh></v>
 </v>
 <v t="leo.20170404003906.4" a="E"><vh>心得</vh>
@@ -114,11 +114,14 @@
 <v t="leo.20170405090545.4" a="E"><vh>上課內容</vh>
 <v t="leo.20170405090545.5"><vh>上課內容</vh></v>
 </v>
+<v t="leo.20170424020617.1" a="E"><vh>影片</vh>
+<v t="leo.20170424020617.2"><vh>影片</vh></v>
+</v>
 <v t="leo.20170405090545.6" a="E"><vh>心得</vh>
 <v t="leo.20170405090545.7"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170405092216.1" a="E"><vh>20170329</vh>
+<v t="leo.20170405092216.1"><vh>20170329</vh>
 <v t="leo.20170405092216.2" a="E"><vh>日期</vh>
 <v t="leo.20170405092216.3"><vh>日期</vh></v>
 </v>
@@ -374,9 +377,11 @@
 </t>
 <t tx="leo.20170405090545.5"># 上課內容
 
-1.如何在fossil筆記倉儲主頁顯示作業
+1.Fossil SCM 與 Stunnel 啟動整合
 
-2.利用Solvespace讓四桿機構轉動
+2.如何在fossil筆記倉儲主頁顯示作業
+
+3.利用V-rep讓四桿機構轉動
 
 
 </t>
@@ -419,7 +424,7 @@
 </t>
 <t tx="leo.20170405092216.5"># 上課內容
 
-1.利用V-rep讓四桿機構轉動
+1.利用V-rep讓單連桿機構轉動
 
 
 </t>
@@ -535,6 +540,17 @@
 <t tx="leo.20170424004824.2"># 影片2
 
 &lt;iframe src="https://player.vimeo.com/video/214390730" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170424020617.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424020617.2"># 影片
+
+&lt;iframe src="https://player.vimeo.com/video/214395459" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
