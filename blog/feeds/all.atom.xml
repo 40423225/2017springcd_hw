@@ -137,7 +137,8 @@ print("學生總數:", n)
 
 &lt;h3&gt;Solvespace&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src="../data/image/W2-1.png" width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="../data/image/W2-1.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
 &lt;h3&gt;影片&lt;/h3&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/213250415" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
