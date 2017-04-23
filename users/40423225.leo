@@ -121,12 +121,15 @@
 <v t="leo.20170405090545.7"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170405092216.1"><vh>20170329</vh>
+<v t="leo.20170405092216.1" a="E"><vh>20170329</vh>
 <v t="leo.20170405092216.2" a="E"><vh>日期</vh>
 <v t="leo.20170405092216.3"><vh>日期</vh></v>
 </v>
-<v t="leo.20170405092216.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170405092216.4"><vh>上課內容</vh>
 <v t="leo.20170405092216.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170424030257.1" a="E"><vh>影片</vh>
+<v t="leo.20170424030257.2"><vh>影片</vh></v>
 </v>
 <v t="leo.20170405092216.6" a="E"><vh>心得</vh>
 <v t="leo.20170405092216.7"><vh>心得</vh></v>
@@ -551,6 +554,17 @@
 <t tx="leo.20170424020617.2"># 影片
 
 &lt;iframe src="https://player.vimeo.com/video/214395459" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170424030257.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424030257.2"># 影片
+
+&lt;iframe src="https://player.vimeo.com/video/214401019" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
