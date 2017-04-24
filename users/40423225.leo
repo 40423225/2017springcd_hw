@@ -632,10 +632,11 @@
 </t>
 <t tx="leo.20170424160323.5"># 上課內容
 
-1.
+1.Fossil 推送檔案
 
+2.利用Solvespace完成八連桿機構
 
-</t>
+3.利用V-rep完成八連桿機構</t>
 <t tx="leo.20170424160323.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;

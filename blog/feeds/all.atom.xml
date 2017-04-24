@@ -27,7 +27,80 @@
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第八次上課，開始自評了，也要開始做東西了。不然會40分。&lt;p&gt;</summary><category term="自評"></category></entry><entry><title>Week 7</title><link href="./Week%207.html" rel="alternate"></link><published>2017-04-05T22:00:00+08:00</published><updated>2017-04-05T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-04-05:./Week 7.html</id><summary type="html">&lt;p&gt;V-rep 模擬 Onebar&lt;/p&gt;
+&lt;p&gt;這是第八次上課，開始自評了，也要開始做東西了。不然會40分。&lt;p&gt;</summary><category term="自評"></category></entry><entry><title>Week 7</title><link href="./Week%207.html" rel="alternate"></link><published>2017-04-05T22:00:00+08:00</published><updated>2017-04-05T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-04-05:./Week 7.html</id><summary type="html">&lt;p&gt;Fossil 推送檔案和V-rep模擬八連桿機構&lt;/p&gt;
+
+
+&lt;h3&gt;Fossil 推送檔案&lt;/h3&gt;
+
+&lt;pre&gt;
+mkdir wd
+cd wd&lt;/pre&gt;
+
+&lt;pre&gt;
+mkdir w7
+cd w7&lt;/pre&gt;
+
+&lt;pre&gt;fossil open ./../../bg8.fossil&lt;/pre&gt;
+
+&lt;pre&gt;
+fossil add .
+fossil remote-url off
+fossil commit -m "提交的註解"
+fossil push https://user@10.0.0.130 &lt;/pre&gt;
+
+&lt;h3&gt;Solvespace&lt;/h3&gt;
+
+&lt;p&gt;組合&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-1.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;bracket_lower&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-2.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_15&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-3.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_39.3&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-4.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_39.4&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-5.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_50&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-6.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_62&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-7.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;link_fixed&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-8.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Pin_10&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-9.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Pin_15&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-10.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;triangle_upper&lt;/p&gt;
+
+&lt;iframe src="../data/image/W7-11.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;影片&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;心得&lt;/h3&gt;
+
+&lt;p&gt;這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="Fossil 推送檔案和Solvespace完成八連桿機構跟用V-rep模擬"></category></entry><entry><title>Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T22:00:00+08:00</published><updated>2017-03-29T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;p&gt;V-rep 模擬 Onebar&lt;/p&gt;
 
 
 &lt;h3&gt;影片&lt;/h3&gt;
@@ -38,18 +111,7 @@
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="V-rep(2)"></category></entry><entry><title>Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T22:00:00+08:00</published><updated>2017-03-29T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;p&gt;V-rep 模擬 Onebar&lt;/p&gt;
-
-
-&lt;h3&gt;影片&lt;/h3&gt;
-
-&lt;iframe src="https://player.vimeo.com/video/214401019" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3&gt;&lt;a href="https://vimeo.com/user60053503"&gt;個人影片區&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3&gt;心得&lt;/h3&gt;
-
-&lt;p&gt;這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="V-rep(2)"></category></entry><entry><title>Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T22:00:00+08:00</published><updated>2017-03-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;p&gt;Fossil SCM 與 Stunnel 啟動整合跟顯示作業和在 V-rep 模擬 Fourbar&lt;/p&gt;
+&lt;p&gt;這是第六次上課，這次跟上次一樣，只是用不同的軟體開啟而已，真是簡單。&lt;p&gt;</summary><category term="V-rep 模擬 Oneba"></category></entry><entry><title>Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T22:00:00+08:00</published><updated>2017-03-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;p&gt;Fossil SCM 與 Stunnel 啟動整合跟顯示作業和在 V-rep 模擬 Fourbar&lt;/p&gt;
 
 
 &lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
@@ -122,7 +184,7 @@ Exit
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="V-rep"></category></entry><entry><title>Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T22:00:00+08:00</published><updated>2017-03-15T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;p&gt;建立協同主機和單桿機構組件&lt;/p&gt;
+&lt;p&gt;這是第五次上課，老師教我們如何在fossil筆記倉儲主頁顯示作業，並利用Solvespace讓四桿機構轉動，今天學的真多。&lt;p&gt;</summary><category term="Fossil SCM 與 Stunnel 啟動整合跟顯示作業和在 V-rep 模擬 Fourbar"></category></entry><entry><title>Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T22:00:00+08:00</published><updated>2017-03-15T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;p&gt;建立協同主機和單桿機構組件&lt;/p&gt;
 
 
 &lt;p&gt;&lt;h3&gt;建立協同主機 2017springcd_bg8&lt;/h3&gt;&lt;/p&gt;
@@ -181,7 +243,7 @@ Exit
 
 
 &lt;h3&gt;心得&lt;/h3&gt;
-&lt;p&gt;這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。&lt;p&gt;</summary><category term="單桿機構組件"></category></entry><entry><title>Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T22:00:00+08:00</published><updated>2017-03-08T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;p&gt;四連桿機構&lt;/p&gt;
+&lt;p&gt;這是第四次上課，跟上禮拜一樣在畫圖，但這次還多了要創建自己組的協同主機。還好滿簡單的。&lt;p&gt;</summary><category term="建立協同主機和單桿機構組件"></category></entry><entry><title>Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T22:00:00+08:00</published><updated>2017-03-08T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;p&gt;四連桿機構&lt;/p&gt;
 
 
 &lt;h3&gt;Solvespace&lt;/h3&gt;
@@ -281,7 +343,7 @@ print("學生總數:", n)
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。&lt;p&gt;</summary><category term="Solvespace(1)"></category></entry><entry><title>Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T22:00:00+08:00</published><updated>2017-02-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;p&gt;Stunnel.conf IP設定&lt;/p&gt;
+&lt;p&gt;這是第二次上課，重新分組了，但還是要用Solvespace畫4連桿機構組。感覺跟上學習差不多。&lt;p&gt;</summary><category term="分組座位和四連桿機構"></category></entry><entry><title>Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T22:00:00+08:00</published><updated>2017-02-22T22:00:00+08:00</updated><author><name>40423225</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;p&gt;Stunnel.conf IP設定&lt;/p&gt;
 
 
 &lt;h3&gt;未修改 stunnel.conf 的 IP 設定&lt;/h3&gt;
