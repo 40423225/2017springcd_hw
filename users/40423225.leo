@@ -396,8 +396,7 @@
 <t tx="leo.20170405085629.7"># 問題
 
 這次GitHub又發生跟上次一樣推送出現問題。
-
-&lt;img src="../data/image/W4-4.png" width="800" /&gt;</t>
+</t>
 <t tx="leo.20170405090545.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -426,7 +425,7 @@
 
 2.如何在fossil筆記倉儲主頁顯示作業
 
-3.利用V-rep讓四桿機構轉動
+3.利用V-rep讓四連桿機構轉動
 
 
 </t>
@@ -518,7 +517,7 @@
 
 刪除 plugin 下的 liquid_tags 目錄
 
-&lt;img src="../data/image/W4-5.png" width="800" /&gt;</t>
+</t>
 <t tx="leo.20170414180543.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -646,7 +645,7 @@
 </t>
 <t tx="leo.20170424160323.7"># 影片
 
-
+&lt;iframe src="https://player.vimeo.com/video/214529063" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170424160323.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -661,7 +660,7 @@
 </t>
 <t tx="leo.20170424160323.9"># 心得
 
-
+&lt;p&gt;這是第七次上課，跟之前一樣畫圖，只是這次比較多，而且這次有教Fossil推送檔案，學的真多。&lt;/p&gt;
 </t>
 <t tx="leo.20170424160324.1">&lt;section&gt;
 @others
@@ -743,7 +742,7 @@
 </t>
 <t tx="leo.20170424160326.7"># 影片
 
-&lt;iframe src="https://player.vimeo.com/video/214459836" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/214531938" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170424160326.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
