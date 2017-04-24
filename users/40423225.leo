@@ -107,7 +107,7 @@
 <v t="leo.20170405105804.2"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170405090545.1" a="E"><vh>20170322</vh>
+<v t="leo.20170405090545.1"><vh>20170322</vh>
 <v t="leo.20170405090545.2" a="E"><vh>日期</vh>
 <v t="leo.20170405090545.3"><vh>日期</vh></v>
 </v>
@@ -121,7 +121,7 @@
 <v t="leo.20170405090545.7"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170405092216.1" a="E"><vh>20170329</vh>
+<v t="leo.20170405092216.1"><vh>20170329</vh>
 <v t="leo.20170405092216.2" a="E"><vh>日期</vh>
 <v t="leo.20170405092216.3"><vh>日期</vh></v>
 </v>
@@ -133,6 +133,45 @@
 </v>
 <v t="leo.20170405092216.6" a="E"><vh>心得</vh>
 <v t="leo.20170405092216.7"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170424160323.1" a="E"><vh>20170405</vh>
+<v t="leo.20170424160323.2" a="E"><vh>日期</vh>
+<v t="leo.20170424160323.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170424160323.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170424160323.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170424160323.6" a="E"><vh>影片</vh>
+<v t="leo.20170424160323.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170424160323.8" a="E"><vh>心得</vh>
+<v t="leo.20170424160323.9"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170424160324.1"><vh>20170412</vh>
+<v t="leo.20170424160324.2" a="E"><vh>日期</vh>
+<v t="leo.20170424160324.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170424160324.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170424160324.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170424160324.8" a="E"><vh>心得</vh>
+<v t="leo.20170424160324.9"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170424160326.1"><vh>20170419</vh>
+<v t="leo.20170424160326.2" a="E"><vh>日期</vh>
+<v t="leo.20170424160326.3"><vh>日期</vh></v>
+</v>
+<v t="leo.20170424160326.4" a="E"><vh>上課內容</vh>
+<v t="leo.20170424160326.5"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170424160326.6" a="E"><vh>影片</vh>
+<v t="leo.20170424160326.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170424160326.8" a="E"><vh>心得</vh>
+<v t="leo.20170424160326.9"><vh>心得</vh></v>
 </v>
 </v>
 </v>
@@ -147,6 +186,9 @@
 <v t="leo.20170405103652.1"><vh>@edit 20170315.md</vh></v>
 <v t="leo.20170405103744.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170405103842.1"><vh>@edit 20170329.md</vh></v>
+<v t="leo.20170424143846.1"><vh>@edit 20170405.md</vh></v>
+<v t="leo.20170424143916.1"><vh>@edit 20170412.md</vh></v>
+<v t="leo.20170424143935.1"><vh>@edit 20170419.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -565,6 +607,157 @@
 <t tx="leo.20170424030257.2"># 影片
 
 &lt;iframe src="https://player.vimeo.com/video/214401019" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170424160323.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160323.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160323.3"># Week 7
+
+
+</t>
+<t tx="leo.20170424160323.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160323.5"># 上課內容
+
+1.
+
+
+</t>
+<t tx="leo.20170424160323.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160323.7"># 影片
+
+
+</t>
+<t tx="leo.20170424160323.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170424160323.9"># 心得
+
+
+</t>
+<t tx="leo.20170424160324.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160324.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160324.3"># Week 8
+
+
+</t>
+<t tx="leo.20170424160324.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160324.5"># 上課內容
+
+1.自評
+
+
+</t>
+<t tx="leo.20170424160324.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170424160324.9"># 心得
+
+這是第八次上課，開始自評了，也要開始做東西了。不然會40分。
+</t>
+<t tx="leo.20170424160326.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160326.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160326.3"># Week 9
+
+
+</t>
+<t tx="leo.20170424160326.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160326.5"># 上課內容
+
+1.期中測驗
+
+
+</t>
+<t tx="leo.20170424160326.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170424160326.7"># 影片
+
+&lt;iframe src="https://player.vimeo.com/video/214459836" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170424160326.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170424160326.9"># 心得
+
+這是第九次上課，這次有期中測驗，雖然我有去上課，但還是有很多不懂。還好有組員可以問。經過大家的努力，終於做了一點東西，但卻不是老師要的，真可惜。但團隊討論的感覺真棒。
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
