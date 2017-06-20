@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Week 7 - 2017Spring 協同產品設計實習 (NFU-40423225-洪嘉緯)</title>
+    <title>Week 12 - 2017Spring 協同產品設計實習 (NFU-40423225-洪嘉緯)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,20 +166,20 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./Week 7.html">
+<link rel="canonical" href="./Week 12.html">
 
         <meta name="author" content="40423225" />
-        <meta name="keywords" content="Fossil 推送檔案和Solvespace完成八連桿機構跟用V-rep模擬" />
-        <meta name="description" content="Fossil 推送檔案和V-rep模擬八連桿機構" />
+        <meta name="keywords" content="漸開線齒輪繪圖" />
+        <meta name="description" content="漸開線齒輪繪圖" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (NFU-40423225-洪嘉緯)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Week 7"/>
-        <meta property="og:url" content="./Week 7.html"/>
-        <meta property="og:description" content="Fossil 推送檔案和V-rep模擬八連桿機構"/>
-        <meta property="article:published_time" content="2017-04-05" />
+        <meta property="og:title" content="Week 12"/>
+        <meta property="og:url" content="./Week 12.html"/>
+        <meta property="og:description" content="漸開線齒輪繪圖"/>
+        <meta property="article:published_time" content="2017-05-10" />
             <meta property="article:section" content="Course" />
-            <meta property="article:tag" content="Fossil 推送檔案和Solvespace完成八連桿機構跟用V-rep模擬" />
+            <meta property="article:tag" content="漸開線齒輪繪圖" />
             <meta property="article:author" content="40423225" />
 
 
@@ -287,10 +287,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Week 7.html"
+                    <a href="./Week 12.html"
                        rel="bookmark"
-                       title="Permalink to Week 7">
-                        Week 7
+                       title="Permalink to Week 12">
+                        Week 12
                     </a>
                 </h1>
             </header>
@@ -300,7 +300,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-05T22:00:00+08:00"> Wed 05 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-10T22:00:00+08:00"> Wed 10 May 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423225.html"><i class="fa fa-user"></i> 40423225</a>
@@ -308,86 +308,269 @@ init_mathjax();
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/fossil-tui-song-dang-an-he-solvespacewan-cheng-ba-lian-gan-ji-gou-gen-yong-v-repmo-ni.html">Fossil 推送檔案和Solvespace完成八連桿機構跟用V-rep模擬</a>
+	<a href="./tag/jian-kai-xian-chi-lun-hui-tu.html">漸開線齒輪繪圖</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Fossil 推送檔案和V-rep模擬八連桿機構</p>
+                <p>漸開線齒輪繪圖</p>
 
 
-<h3>Fossil 推送檔案</h3>
+<h3> FeatureScript 正齒輪輪廓繪圖程式碼</h3>
 
-<pre>
-mkdir wd
-cd wd</pre>
+<pre class="brush: python">
+FeatureScript 581;
+import(path : "onshape/std/geometry.fs", version : "581.0");<p></p>
+<p>annotation { "Feature Type Name" : "Spur2" }
+export const spur = defineFeature(function(context is Context, id is Id, definition is map)
+    precondition
+    {
+        // 正齒輪齒數, 由使用者輸入, 型別為整數
+        annotation { "Name" : "Number of Gear Tooth" }
+        isInteger(definition.n, POSITIVE_COUNT_BOUNDS);
+        // 正齒輪模數, 由使用者輸入, 型別為長度, 為內建尺寸單位
+        annotation { "Name" : "Module" }
+        isLength(definition.module, LENGTH_BOUNDS);
+        // 正齒輪壓力角, 由使用者輸入, 型別為角度, 為內建角度單位
+        annotation { "Name" : "Pressure Angle" }
+        isAngle(definition.pa, ANGLE_360_BOUNDS);
+        // 正齒輪圓心座標點, 由使用者選擇
+        annotation { "Name" : "Select a point", "Filter" : EntityType.VERTEX, "MaxNumberOfPicks" : 1 }
+        definition.point is Query;
+    }
+    {
+        // Precondition 中的查詢, 需要 evalue 才能傳回對應的 entity
+        var location = evaluateQuery(context, definition.point)[0];
+        // location 變數為點座標對應的 entity, 必須透過 evVetexPoint 的評量才能傳回對應的點座標
+        var center3D = evVertexPoint(context, {
+                "vertex" : location
+        });</p>
+<div class="highlight"><pre><span></span>    // 作圖平面利用 evOwnerSketch 評量, 與 location entity 同一個平面
+    var sketchPlane = evOwnerSketchPlane(context, {
+            "entity" : location
+    });
+    // 作圖畫
+    const gearSketch = newSketchOnPlane(context, id + "gearSketch", {
+            "sketchPlane" : sketchPlane
+    });
+    // 利用 worldToPlane, 將 center3D 轉換為 sketchPlane 上的平面點座標
+    const center2D = worldToPlane(sketchPlane, center3D);
+    //print(center2D);
+    // 漸開線近似點數
+    var imax = 5;
+    // 使用者所選的齒輪圓心 x 座標
+    var midx = center2D[0];
+    // 使用者所選的齒輪圓心 y 座標
+    var midy = center2D[1];
+    // 齒數
+    var n = definition.n;
+    // 模數
+    var m = definition.module;
+    // 壓力角, 單位為角度
+    var pa = definition.pa;
+    // 齒輪的節圓半徑
+    var rp = m*n/2;
+    skLineSegment(gearSketch, "line", {
+    "start" : vector(midx,midy),
+    "end" : vector(midx,midy+rp)
+    });
+    // 齒根
+    var d = 2.5*rp/n;
+    // 齒頂圓半徑
+    var ra = rp + m;
+    // 基圓半徑
+    var rb = rp*cos(pa);
+    //print(rb);
+    // 齒根圓半徑
+    var rd = rp - d;
+    // 分段後齒頂與齒根半徑差增量
+    var dr = 0*meter;
+    // 若 rb > rd 時從基圓開始繪製漸開線, 但是若 rd > rb, 則漸開線從 rd 畫到齒頂圓
+    if (rd > rb)
+    {
+        // 半徑差的分段, 由齒根圓到齒頂圓
+        dr = (ra-rd)/imax;
+    }
+    else
+    {
+        // 半徑差的分段, 由基圓到齒頂圓
+        dr = (ra-rb)/imax;
+    }
+    // PI 為實數值沒有單位, tan(pa)也沒有單位, pa 已經設定單位為 degree, 這裡為了與 radian 運算
+    // 系統會自動轉為 radian
+    var rot = PI/(2*n)*radian;
+    //print(sigma);
+    // 分別用來設定 entity id 用的增量變數
+    var nameId = 1;
+    var nameId2 = 1;
+    var r = 0*meter;
+    // theta 為浮點數字
+    var theta = 0;
+    var inv = 0*radian;
+    var inc = 0*radian;
+    // 當 r=rp 時 ,計算 inv_rp 用來旋轉漸開線用
+    // theta 為沒有單位的實數
+    theta = sqrt((rp*rp)/(rb*rb)-1);
+    // atan(theta) 為 radian
+    var inv_rp = theta*radian-atan(theta);
+    // 漸開線上點的 x 座標
+    var xpt = 0*meter;
+    // 漸開線上點的 y 座標
+    var ypt = 0*meter;
+    // 左側漸開線第1點座標 left first x and y
+    var lfx = 0*meter;
+    var lfy = 0*meter;
+    // 右側漸開線第1點座標 right first x and y
+    var rfx = 0*meter;
+    var rfy = 0*meter;
+    // 左側齒根圓上點座標 left x of dedendum point
+    var lxd = 0*meter;
+    var lyd = 0*meter;
+    // 右側齒根圓上點座標 right x of dedendum point
+    var rxd = 0*meter;
+    var ryd = 0*meter;
+    // 左側齒根圓上點座標 right x of dedendum point (advanced)
+    var lxd_ad = 0*meter;
+    var lyd_ad = 0*meter;
+    var inc_ad = 0*radian;
+    for (var j=0;j<n;j+=1)
+    {
+        // 當 j 增量時, 按照齒數輪廓繞行旋轉增量角度
+        inc = (2.*j*PI/n)*radian;
+        inc_ad = (2.*(j+1)*PI/n)*radian;
+        if (rd>rb)
+        {
+            // 當齒根半徑因為齒數增多後大於基圓半徑時, 漸開線從齒根圓長起
+            theta = sqrt((rd*rd)/(rb*rb)-1.);
+            inv = theta*radian-atan(theta);
+            // 左側漸開線第1點座標
+            // 左側輪廓線配合逆時針旋轉 inc 角度
+            lfx = midx+rd*sin(inv-rot-inv_rp+inc);
+            lfy = midy+rd*cos(inv-rot-inv_rp+inc);
+            lxd = lfx;
+            lyd = lfy;
+            lxd_ad = midx+rd*sin(inv-rot-inv_rp+inc_ad);
+            lyd_ad = midy+rd*cos(inv-rot-inv_rp+inc_ad);
+            // 右側漸開線第1點座標
+            // 右側輪廓線配合順時針旋轉 inc 角度
+            rfx = midx-rd*sin(inv-rot-inv_rp-inc);
+            rfy = midy+rd*cos(inv-rot-inv_rp-inc);
+            rxd = rfx;
+            ryd = rfy;
+            // 齒根圓上的直線 on dedendum points
+            skLineSegment(gearSketch, "line_dd" ~ nameId, {
+            "start" : vector(rxd,ryd),
+            "end" : vector((lxd_ad),(lyd_ad))
+            });
+        }
+        else
+        {
+            // 當基圓半徑大於齒根圓時, 漸開線從基圓長起
+            theta = sqrt((rb*rb)/(rb*rb)-1.);
+            inv = theta*radian-atan(theta);
+            // 左側漸開線第1點座標
+            lfx = midx+rb*sin(inv-rot-inv_rp+inc);
+            lfy = midy+rb*cos(inv-rot-inv_rp+inc);
+            lxd = midx+rd*sin(inv-rot-inv_rp+inc);
+            lyd = midy+rd*cos(inv-rot-inv_rp+inc);
+            lxd_ad = midx+rd*sin(inv-rot-inv_rp+inc_ad);
+            lyd_ad = midy+rd*cos(inv-rot-inv_rp+inc_ad);
+            // 從基圓點到齒根圓點, 畫直線 left from base point to dedendum point
+            skLineSegment(gearSketch, "line_lbd" ~ nameId, {
+            "start" : vector(lfx,lfy),
+            "end" : vector((lxd),(lyd))
+            });
+            // 右側漸開線第1點座標
+            rfx = midx-rb*sin(inv-rot-inv_rp-inc);
+            rfy = midy+rb*cos(inv-rot-inv_rp-inc);
+            rxd = midx-rd*sin(inv-rot-inv_rp-inc);
+            ryd = midy+rd*cos(inv-rot-inv_rp-inc);
+            // 從基圓點到齒根圓點, 畫直線 right from base point to dedendum point
+            skLineSegment(gearSketch, "line_rbd" ~ nameId, {
+            "start" : vector(rfx,rfy),
+            "end" : vector((rxd),(ryd))
+            });
+            // 齒根圓上的直線 on dedendum points
+            skLineSegment(gearSketch, "line_dd" ~ nameId, {
+            "start" : vector(rxd,ryd),
+            "end" : vector((lxd_ad),(lyd_ad))
+            });
+        }
 
-<pre>
-mkdir w7
-cd w7</pre>
-
-<pre>fossil open ./../../bg8.fossil</pre>
-
-<pre>
-fossil add .
-fossil remote-url off
-fossil commit -m "提交的註解"
-fossil push https://user@10.0.0.130 </pre>
-
-<h3>Solvespace</h3>
-
-<p>組合</p>
-
-<iframe src="../data/image/W7-1.html" width="800" height="480"></iframe>
-
-<p>bracket_lower</p>
-
-<iframe src="../data/image/W7-2.html" width="800" height="480"></iframe>
-
-<p>link_15</p>
-
-<iframe src="../data/image/W7-3.html" width="800" height="480"></iframe>
-
-<p>link_39.3</p>
-
-<iframe src="../data/image/W7-4.html" width="800" height="480"></iframe>
-
-<p>link_39.4</p>
-
-<iframe src="../data/image/W7-5.html" width="800" height="480"></iframe>
-
-<p>link_50</p>
-
-<iframe src="../data/image/W7-6.html" width="800" height="480"></iframe>
-
-<p>link_62</p>
-
-<iframe src="../data/image/W7-7.html" width="800" height="480"></iframe>
-
-<p>link_fixed</p>
-
-<iframe src="../data/image/W7-8.html" width="800" height="480"></iframe>
-
-<p>Pin_10</p>
-
-<iframe src="../data/image/W7-9.html" width="800" height="480"></iframe>
-
-<p>Pin_15</p>
-
-<iframe src="../data/image/W7-10.html" width="800" height="480"></iframe>
-
-<p>triangle_upper</p>
-
-<iframe src="../data/image/W7-11.html" width="800" height="480"></iframe>
-
-<h3>影片</h3>
-
-<iframe src="https://player.vimeo.com/video/214529063" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        for (var i=1; i<imax+1; i+= 1)
+        {
+            // 先處理中線左側的漸開線
+            // 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+            if (rd>rb)
+            {
+                r = rd+i*dr;
+            }
+            else
+            {
+                r = rb+i*dr;
+            }
+            theta = sqrt((r*r)/(rb*rb)-1);
+            var inv = theta*radian-atan(theta);
+            // 漸開線上的點座標
+            xpt = midx+r*sin(inv-rot-inv_rp+inc);
+            ypt = midy+r*cos(inv-rot-inv_rp+inc);
+            // lxd, lyd 為漸開線上的繪線起點座標
+            skLineSegment(gearSketch, "lineb" ~ nameId, {
+            "start" : vector(lfx,lfy),
+            "end" : vector((xpt),(ypt))
+            });
+            // 更新漸開線點座標
+            lfx = xpt;
+            lfy = ypt;
+            nameId += 1;
+        }
+        // 紀錄左側漸開線的最後一點, 也就是齒頂圓上的點座標
+        var lastlx = xpt;
+        var lastly = ypt;
+        // another side
+        for (var i=1; i<imax+1; i+= 1)
+        {
+            if (rd>rb)
+            {
+                r = rd+i*dr;
+            }
+            else
+            {
+                r = rb+i*dr;
+            }
+            theta = sqrt((r*r)/(rb*rb)-1);
+            var inv = theta*radian-atan(theta);
+            // 漸開線上的點座標
+            xpt = midx-r*sin(inv-rot-inv_rp-inc);
+            ypt = midy+r*cos(inv-rot-inv_rp-inc);
+            // rxd, ryd 為漸開線上的繪線起點座標
+            skLineSegment(gearSketch, "linec" ~ nameId, {
+            "start" : vector(rfx,rfy),
+            "end" : vector((xpt),(ypt))
+            });
+            // 更新漸開線點座標
+            rfx = xpt;
+            rfy = ypt;
+            nameId += 1;
+        }
+        var lastrx = xpt;
+        var lastry = ypt;
+        // 齒頂連線
+        skLineSegment(gearSketch, "lined" ~ nameId2, {
+        "start" : vector(lastlx,lastly),
+        "end" : vector(lastrx,lastry)
+        });
+        nameId2 += 1;
+    }
+skSolve(gearSketch);
+});
+</pre></div>
+</pre>
 
 <h3><a href="https://vimeo.com/user60053503">個人影片區</a></h3>
 
 <h3>心得</h3>
 
-<p>這是第七次上課，跟之前一樣畫圖，只是這次比較多，而且這次有教Fossil推送檔案，學的真多。</p>
+<p>這是第十二次上課，雖然我有去上課，但還是有很多不懂。還好有組員可以問。經過大家的努力，終於做了一點東西，但卻不是老師要的，真可惜。但團隊討論的感覺真的很棒。<p>
             </div>
             <!-- /.entry-content -->
         </article>
